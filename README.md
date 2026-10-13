@@ -40,7 +40,7 @@
 ```text
 $ systeminfo --short
 degrees   B.Sc. Software Systems + B.Sc. Multimedia Engineering (ABET) · 2026
-athlete   National-level table tennis · 2nd place, FISU America Games 2026
+athlete   National-level table tennis
 langs     Spanish (native) · English (B2)
 location  Cali, Colombia
 ```
