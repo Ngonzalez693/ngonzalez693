@@ -1,0 +1,95 @@
+{
+  "name": "Nicolás González Toro",
+  "title": "Software Engineer · Multimedia Engineer",
+  "logoSources": {
+    "python": "python/python-original",
+    "java": "java/java-original",
+    "javascript": "javascript/javascript-original",
+    "csharp": "csharp/csharp-original",
+    "cplusplus": "cplusplus/cplusplus-original",
+    "dart": "dart/dart-original",
+    "angular": "angular/angular-original",
+    "flutter": "flutter/flutter-original",
+    "ionic": "ionic/ionic-original",
+    "nodejs": "nodejs/nodejs-original",
+    "django": "django/django-plain",
+    "html5": "html5/html5-original",
+    "css3": "css3/css3-original",
+    "pytorch": "pytorch/pytorch-original",
+    "tensorflow": "tensorflow/tensorflow-original",
+    "scikitlearn": "scikitlearn/scikitlearn-original",
+    "numpy": "numpy/numpy-original",
+    "pandas": "pandas/pandas-original",
+    "matplotlib": "matplotlib/matplotlib-original",
+    "jupyter": "jupyter/jupyter-original",
+    "postgresql": "postgresql/postgresql-original",
+    "mongodb": "mongodb/mongodb-original",
+    "firebase": "firebase/firebase-original",
+    "git": "git/git-original",
+    "docker": "docker/docker-original",
+    "postman": "postman/postman-original",
+    "figma": "figma/figma-original",
+    "blender": "blender/blender-original",
+    "unity": "unity/unity-original",
+    "premierepro": "premierepro/premierepro-original",
+    "aftereffects": "aftereffects/aftereffects-original",
+    "photoshop": "photoshop/photoshop-original",
+    "illustrator": "illustrator/illustrator-original"
+  },
+  "stacks": {
+    "sys": [
+      { "label": "Languages", "logos": ["python", "java", "javascript", "csharp", "cplusplus", "dart"], "extras": ["SQL"] },
+      { "label": "Web & Mobile", "logos": ["angular", "flutter", "ionic", "nodejs", "django", "html5", "css3"], "extras": ["REST APIs"] },
+      { "label": "Data & ML", "logos": ["pytorch", "tensorflow", "scikitlearn", "numpy", "pandas", "matplotlib", "jupyter"], "extras": ["Power BI"] },
+      { "label": "Databases", "logos": ["postgresql", "mongodb", "firebase"], "extras": [] },
+      { "label": "Tools", "logos": ["git", "docker", "postman"], "extras": ["Scrum", "Power Apps", "Power Automate"] }
+    ],
+    "media": [
+      { "label": "Design & 3D", "logos": ["figma", "blender", "unity"], "extras": [] },
+      { "label": "Video & Post", "logos": ["premierepro", "aftereffects", "photoshop", "illustrator"], "extras": ["DaVinci Resolve", "Pro Tools"] }
+    ]
+  },
+  "projects": [
+    {
+      "repo": "PingPro",
+      "title": "PingPro",
+      "description": "Table-tennis training app for athletes and coaches: drill library, session builder and 3D drill playback animated from self-captured motion capture.",
+      "category": "sys",
+      "bridge": true,
+      "year": 2025,
+      "logos": ["flutter", "dart", "nodejs", "firebase", "blender", "figma"]
+    },
+    {
+      "repo": "DeepLearning",
+      "title": "Deep Learning",
+      "description": "Neural networks built up from first principles: Perceptron and Adaline to MLPs and CNNs, benchmarked and visualized.",
+      "category": "sys",
+      "year": 2024,
+      "logos": ["python", "pytorch", "tensorflow", "scikitlearn", "numpy", "jupyter"]
+    },
+    {
+      "repo": "NumMethods",
+      "title": "Numerical Methods",
+      "description": "Numerical methods written from scratch: root finding, integration, derivatives and linear systems. No SciPy, no solvers.",
+      "category": "sys",
+      "year": 2023,
+      "logos": ["python", "numpy", "matplotlib"]
+    },
+    {
+      "repo": "Timeless_Racing",
+      "title": "Timeless Racing",
+      "description": "3D racing game from design document to playable build: vehicle handling, lap logic, HUD and tuned game feel.",
+      "category": "media",
+      "year": 2025,
+      "logos": ["unity", "csharp", "blender"]
+    },
+    {
+      "repo": "Co-op_Game",
+      "title": "Co-op Game",
+      "description": "4-player co-op escape room in a sci-fi simulation: four isolated rooms, four puzzles, one clock.",
+      "category": "media",
+      "year": 2026,
+      "logos": ["unity", "csharp"]
+    }
+  ]
+}
