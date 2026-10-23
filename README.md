@@ -4,8 +4,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/nicolas-gonzalez-toro">LinkedIn</a> ·
-  <a href="https://www.behance.net/ngonzalez693">Behance</a> ·
-  <a href="mailto:nicogonto@gmail.com">nicogonto@gmail.com</a>
+  <a href="https://www.behance.net/ngonzalez693">Behance</a>
 </p>
 
 <br>
