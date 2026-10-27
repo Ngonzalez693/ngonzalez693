@@ -34,19 +34,27 @@
     "premierepro": "premierepro/premierepro-original",
     "aftereffects": "aftereffects/aftereffects-original",
     "photoshop": "photoshop/photoshop-original",
-    "illustrator": "illustrator/illustrator-original"
+    "illustrator": "illustrator/illustrator-original",
+    "openapi": "openapi/openapi-original",
+    "davinci": "https://cdn.jsdelivr.net/npm/simple-icons@16.36.0/icons/davinciresolve.svg",
+    "scrum": "local",
+    "sql": "local",
+    "powerbi": "local",
+    "powerapps": "local",
+    "powerautomate": "local",
+    "protools": "local"
   },
   "stacks": {
     "sys": [
-      { "label": "Languages", "logos": ["python", "java", "javascript", "csharp", "cplusplus", "dart"], "extras": ["SQL"] },
-      { "label": "Web & Mobile", "logos": ["angular", "flutter", "ionic", "nodejs", "django", "html5", "css3"], "extras": ["REST APIs"] },
-      { "label": "Data & ML", "logos": ["pytorch", "tensorflow", "scikitlearn", "numpy", "pandas", "matplotlib", "jupyter"], "extras": ["Power BI"] },
+      { "label": "Languages", "logos": ["python", "java", "javascript", "csharp", "cplusplus", "dart", "sql"], "extras": [] },
+      { "label": "Web & Mobile", "logos": ["angular", "flutter", "ionic", "nodejs", "django", "html5", "css3", "openapi"], "extras": [] },
+      { "label": "Data & ML", "logos": ["pytorch", "tensorflow", "scikitlearn", "numpy", "pandas", "matplotlib", "jupyter", "powerbi"], "extras": [] },
       { "label": "Databases", "logos": ["postgresql", "mongodb", "firebase"], "extras": [] },
-      { "label": "Tools", "logos": ["git", "docker", "postman"], "extras": ["Scrum", "Power Apps", "Power Automate"] }
+      { "label": "Tools", "logos": ["git", "docker", "postman", "scrum", "powerapps", "powerautomate"], "extras": [] }
     ],
     "media": [
       { "label": "Design & 3D", "logos": ["figma", "blender", "unity"], "extras": [] },
-      { "label": "Video & Post", "logos": ["premierepro", "aftereffects", "photoshop", "illustrator"], "extras": ["DaVinci Resolve", "Pro Tools"] }
+      { "label": "Video & Post", "logos": ["premierepro", "aftereffects", "photoshop", "illustrator", "davinci", "protools"], "extras": [] }
     ]
   },
   "projects": [
