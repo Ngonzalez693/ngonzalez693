@@ -4,8 +4,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/nicolas-gonzalez-toro">LinkedIn</a> ·
-  <a href="https://www.behance.net/ngonzalez693">Behance</a> ·
-  <a href="mailto:nicogonto@gmail.com">nicogonto@gmail.com</a>
+  <a href="https://www.behance.net/ngonzalez693">Behance</a>
 </p>
 
 <br>
@@ -40,7 +39,7 @@
 ```text
 $ systeminfo --short
 degrees   B.Sc. Software Systems + B.Sc. Multimedia Engineering (ABET) · 2026
-athlete   National-level table tennis · 2nd place, FISU America Games 2026
+athlete   National-level table tennis
 langs     Spanish (native) · English (B2)
 location  Cali, Colombia
 ```
