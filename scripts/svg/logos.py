@@ -8,6 +8,7 @@ ROOT_TAG = re.compile(r'<svg\b([^>]*)>(.*)</svg>', re.DOTALL)
 # El SVG anidado recibe su propia posición y tamaño; estos atributos del original sobran.
 DROPPED_ATTRS = re.compile(r'\s(?:xmlns|version|width|height)="[^"]*"')
 ID_ATTR = re.compile(r'\bid="([^"]+)"')
+SIZE_ATTR = re.compile(r'\s(width|height)="([\d.]+)(?:px)?"')
 TILE_PADDING_RATIO = 0.18
 TILE_RADIUS_RATIO = 0.22
 
@@ -21,9 +22,20 @@ def inlineLogo(name, x, y, size, idPrefix):
   match = ROOT_TAG.search(source)
   if match is None:
     raise ValueError(f"Logo '{name}' in assets/logos is not a valid SVG file")
-  attrs = DROPPED_ATTRS.sub('', match.group(1))
+  attrs = DROPPED_ATTRS.sub('', match.group(1)) + missingViewBox(name, match.group(1))
   inner = prefixIds(match.group(2), f'{idPrefix}-{name}')
   return f'<svg x="{x}" y="{y}" width="{size}" height="{size}"{attrs}>{inner}</svg>'
+
+
+def missingViewBox(name, attrs):
+  # Sin viewBox, al cambiar width/height el ícono se recortaría en vez de escalarse:
+  # se reconstruye a partir del tamaño original.
+  if 'viewBox=' in attrs:
+    return ''
+  sizes = dict(SIZE_ATTR.findall(attrs))
+  if 'width' not in sizes or 'height' not in sizes:
+    raise ValueError(f"Logo '{name}' has neither a viewBox nor a numeric width and height")
+  return f' viewBox="0 0 {sizes["width"]} {sizes["height"]}"'
 
 
 def prefixIds(markup, prefix):
